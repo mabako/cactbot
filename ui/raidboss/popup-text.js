@@ -257,7 +257,7 @@ class PopupText {
       return;
 
     // If using named groups, treat matches.groups as matches
-    // so triggers can do things like matches.targetName.
+    // so triggers can do things like matches.target.
     if (matches.groups)
       matches = matches.groups;
 
